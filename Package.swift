@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXCoreModule_SD_ARPreviewWrapper",
 				dependencies: [
 					"GXCoreModule_SD_ARPreview",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .watchOS, .tvOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_ARPreview",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_ARPreview-1.0.0-beta+20230315182831.xcframework.zip",
-			checksum: "a4e7813e5f515aa1a8de3008c31fd7d40b621a4be1c83871a9d225a6377a93ff"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_ARPreview-1.0.0-beta+20230316142352.xcframework.zip",
+			checksum: "90930d9227e9c59939e5ef86b5280ea045ecf446cb4652e0a692810b4c314c70"
 		)
 	]
 )
