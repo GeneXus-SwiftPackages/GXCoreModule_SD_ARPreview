@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_ARPreview",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_ARPreview-1.0.0-beta+20230505145632.xcframework.zip",
-			checksum: "c4410765e90240ad6b8d4d088d6e3754951adf2efca625111d8cc0c59619104f"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_ARPreview-1.0.0-beta+20230509131236.xcframework.zip",
+			checksum: "8bdadf42c16a1feb5c9879641b232e792e37c3b771e224b130996e8edeb569d5"
 		)
 	]
 )
