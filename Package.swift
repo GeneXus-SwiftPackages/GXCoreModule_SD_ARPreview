@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_SD_ARPreviewWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.1.0")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-rc.1")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_ARPreviewWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_ARPreview",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_ARPreview-1.1.0.xcframework.zip",
-			checksum: "1efa602a73d3012238114ed54ef7243f9e128cdd975e1412466bef69b2a73417"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreModule_SD_ARPreview-1.2.0-rc.1.xcframework.zip",
+			checksum: "94c057e07dc119b62f40e1ac529991c0753173926d01b2c32a5317f3b4616bdc"
 		)
 	]
 )
